@@ -18,7 +18,7 @@ document.getElementById('sub-btn').addEventListener('click', function (){
         document.getElementById('WeatherStatus').innerHTML = `<img src='https://openweathermap.org/img/wn/${iconStatus}.png'>`
     })
     .catch(error => {
-        const errorMessage = "Sorry Pal The City Not Found. Maybe You Mistyped The Name, Check Again"
+        const errorMessage = "Sorry Pal The City Not Found. Maybe You Mistyped The Name, Check Again :)"
         document.getElementById('cityName').innerText = `${errorMessage}`
     })
 
